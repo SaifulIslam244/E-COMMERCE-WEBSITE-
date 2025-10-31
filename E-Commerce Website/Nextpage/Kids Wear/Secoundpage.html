@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover our adorable kids' fashion collection at Style.com - Cute and comfortable clothing for children">
+    <title>Kids' Fashion Collection - Style.com</title>
+    <link rel="stylesheet" href="Secoundpage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="../../image/favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="../../Firstpage.html">
+                    <h2>STYLE</h2>
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li><a href="../../login.html" class="nav-link"><i class="fas fa-user"></i> Login</a></li>
+                    <li><a href="../../Firstpage.html#home" class="nav-link">Home</a></li>
+                    <li><a href="../../Firstpage.html#shop" class="nav-link">Shop</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+        <div class="hero-content">
+            <h1 class="hero-title">KIDS' FASHION</h1>
+            <p class="hero-subtitle">Adorable styles for little ones</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Styles</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">50%</span>
+                    <span class="stat-label">Off</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">Free</span>
+                    <span class="stat-label">Shipping</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/Kids wear/kids-frock.jpg" alt="Kids' Fashion Collection">
+        </div>
+    </section>
+
+    <!-- Filters and Sort -->
+    <section class="filters-section">
+        <div class="filters-container">
+            <div class="filter-group">
+                <label for="sort">Sort by:</label>
+                <select id="sort" class="filter-select">
+                    <option value="popular">Most Popular</option>
+                    <option value="price-low">Price: Low to High</option>
+                    <option value="price-high">Price: High to Low</option>
+                    <option value="newest">Newest First</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="size">Size:</label>
+                <select id="size" class="filter-select">
+                    <option value="all">All Sizes</option>
+                    <option value="2-3y">2-3 Years</option>
+                    <option value="4-5y">4-5 Years</option>
+                    <option value="6-7y">6-7 Years</option>
+                    <option value="8-9y">8-9 Years</option>
+                    <option value="10-12y">10-12 Years</option>
+                </select>
+            </div>
+            <div class="view-toggle">
+                <button class="view-btn active" data-view="grid">
+                    <i class="fas fa-th"></i>
+                </button>
+                <button class="view-btn" data-view="list">
+                    <i class="fas fa-list"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-section">
+        <div class="container">
+            <!-- Row 1 -->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/Kids wear/kids-frock.jpg" alt="Pink Princess Dress">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-badge sale">50% OFF</div>
+                </div>
+                <div class="product-info">
+                    <h3>Pink Princess Dress</h3>
+                    <div class="product-price">
+                        <span class="current-price">₹899</span>
+                        <span class="original-price">₹1,799</span>
+                        <span class="discount">₹900 OFF</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <button class="size-btn">Select Size</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/Kids wear/baby_frock-Photoroom.jpg" alt="Baby Girl Frock">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-badge sale">50% OFF</div>
+                </div>
+                <div class="product-info">
+                    <h3>Baby Girl Frock</h3>
+                    <div class="product-price">
+                        <span class="current-price">₹699</span>
+                        <span class="original-price">₹1,399</span>
+                        <span class="discount">₹700 OFF</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <button class="size-btn">Select Size</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/Kids wear/category-boys-jodhpuri-suits-27-10-22.jpg" alt="Boys Jodhpuri Suit">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-badge sale">50% OFF</div>
+                </div>
+                <div class="product-info">
+                    <h3>Boys Jodhpuri Suit</h3>
+                    <div class="product-price">
+                        <span class="current-price">₹1,299</span>
+                        <span class="original-price">₹2,599</span>
+                        <span class="discount">₹1,300 OFF</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <button class="size-btn">Select Size</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/Kids wear/category-boys-kurta-pajamas-14-11-22.jpg" alt="Boys Kurta Pajamas">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-badge sale">50% OFF</div>
+                </div>
+                <div class="product-info">
+                    <h3>Boys Kurta Pajamas</h3>
+                    <div class="product-price">
+                        <span class="current-price">₹999</span>
+                        <span class="original-price">₹1,999</span>
+                        <span class="discount">₹1,000 OFF</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <button class="size-btn">Select Size</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/Kids wear/topper-Photoroom.jpg" alt="Kids Winter Topper">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-badge sale">50% OFF</div>
+                </div>
+                <div class="product-info">
+                    <h3>Kids Winter Topper</h3>
+                    <div class="product-price">
+                        <span class="current-price">₹799</span>
+                        <span class="original-price">₹1,599</span>
+                        <span class="discount">₹800 OFF</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <button class="size-btn">Select Size</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/Kids wear/9111F-3x2-limited-edition-2025.jpg" alt="Limited Edition Kids Collection">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-badge sale">50% OFF</div>
+                </div>
+                <div class="product-info">
+                    <h3>Limited Edition Kids Collection</h3>
+                    <div class="product-price">
+                        <span class="current-price">₹1,199</span>
+                        <span class="original-price">₹2,399</span>
+                        <span class="discount">₹1,200 OFF</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <button class="size-btn">Select Size</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/Kids wear/kids-frock.jpg" alt="Summer Kids Dress">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-badge sale">50% OFF</div>
+                </div>
+                <div class="product-info">
+                    <h3>Summer Kids Dress</h3>
+                    <div class="product-price">
+                        <span class="current-price">₹599</span>
+                        <span class="original-price">₹1,199</span>
+                        <span class="discount">₹600 OFF</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <button class="size-btn">Select Size</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/Kids wear/category-boys-jodhpuri-suits-27-10-22.jpg" alt="Kids Party Wear">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-badge sale">50% OFF</div>
+                </div>
+                <div class="product-info">
+                    <h3>Kids Party Wear</h3>
+                    <div class="product-price">
+                        <span class="current-price">₹1,499</span>
+                        <span class="original-price">₹2,999</span>
+                        <span class="discount">₹1,500 OFF</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <button class="size-btn">Select Size</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter for the latest trends and exclusive offers</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Style.com</h3>
+                <p>Your premier destination for fashion-forward clothing. We bring you the latest trends in men's, women's, and kids' fashion.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="../../Firstpage.html#home">Home</a></li>
+                    <li><a href="../../Firstpage.html#shop">Shop</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Download Our App</h3>
+                <div class="app-badges">
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play"></a>
+                    <a href="#"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store"></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Style.com. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="secondpage.js"></script>
+</body>
+</html> 
